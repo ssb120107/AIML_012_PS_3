@@ -9,4 +9,6 @@ Subsequently,we converted the VisDrone annotations into the yolo format,which is
 
 this is what we got after training our model--
 
+![readme img](https://github.com/user-attachments/assets/22e7aa79-9f34-449c-be5d-40b358ec0c66)
+
 
