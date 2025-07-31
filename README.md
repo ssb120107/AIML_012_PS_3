@@ -1,33 +1,60 @@
 # AIML_012_PS_3
-Drone Footage Object Detection
+# Drone Footage Object Detection
 
-this project focuses on detecting and tracking objects in the envirnoment using drone footage.
+This project focuses on detecting and tracking objects in dynamic environments using drone footage. It leverages deep learning models (YOLO) alongside the VisDrone dataset for robust aerial object recognition in images and videos, including prompt-based detection features.
 
-The VisDrone dataset,which is organized in a highly useful format,serves as the starting point. it contains directories for training,validation and testing, each of which includes separate folders for images and annotations.This structure is primarily desgined for images and their corresponding annotations.
-For videos,the format differs slightly:there are sequence folders containing multiple video files,with each sequence accompained by an annotation folder.the annotation folder includes the annotations which provides the dimensions of the bounding boxes required to enclose objects during detection.
-Subsequently,we converted the VisDrone annotations into the yolo format,which is necessary for training the yolo model.
+### Getting Started
+  1. Clone the respository to your local machine.<br>
+  2. Open the notebooks in your environment,you can use google colab or VS code.<br>
+  3. follow the notebook to train and test the models.<br>
 
-this is how our model detects objects :
+### Dataset
+We used the Visdrone dataset [(https://github.com/VisDrone/VisDrone-Dataset)], specially designed for aerial vision tasks.<br>
+For Images-<br>
+  it is organized into folders for training, validation and testing.Each folder contains images    and matching annotation files.<br>
+For Videos-<br>
+  it is grouped into sequence folders, each containing multiple video files and their
+  corresponding annotation folders provide bounding box data for every detected object in each 
+  frame.<br>
 
-![1000163037](https://github.com/user-attachments/assets/7ce148ae-4716-4e38-8da5-4b3acd6fe336)
+### Model Overview
+our detection system is based on the YOLO(you only look once) architecture, optimized for aerial perspectives and small, moving targets. the pipeline includes-<br>
+  1. Parsing and converting visdrone annotations<br>
+  2. training and evaluating on both images and videos<br>
+  3. Prompt based used defined detection functionality<br>
 
-even pedestrains are detected with high accuracy :
+### General Object Detectionn
+objects such as cars, pedestrians, truck are accurately detected in drone images:
 
-![1000163039](https://github.com/user-attachments/assets/d1b4459b-2d71-4028-bc67-f56c5f955271)
+![General Object Detection](https://github.com/user-attachments/assets/7ce148ae-4716-4e38-8da5-4b3acd6fe336)
 
-detection at night time : 
+high accuracy pedestrian identification in complex scenes:
+
+![Pedestrian Detection](https://github.com/user-attachments/assets/d1b4459b-2d71-4028-bc67-f56c5f955271)
+
+### Nighttime Detection:
+robust detection performance during night scenes :
 
 https://github.com/user-attachments/assets/ae64f0b0-ec3d-4ad4-bdc1-1f64f8bfc998
 
-one feature we added is of text prompt,in which objects will be detected according to your prompts
-this text prompt based tracking can highly used in security purposes.
-here we gave prompt to detect yellow,black and white cars and it gave the proper count also 
+### Prompt-Based Detection
 
-![1000163081](https://github.com/user-attachments/assets/8453acd7-0f4f-41f7-bf1d-f9219c3f80c6)
+detect and count only specified objects via text prompt 
+here prompt was yellow,black and white cars:
 
-this one is for video part,in which we gave prompt to detect red cars
+![Prompt Based Detection](https://github.com/user-attachments/assets/8453acd7-0f4f-41f7-bf1d-f9219c3f80c6)
+
+Example of prompt based detecting and tracking red cars in video 
+**Watch Example Video**
 
 https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
+
+
+
+
+
+
+
 
 
 
