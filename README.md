@@ -12,3 +12,12 @@ this is what we got after training our model--
 ![readme img](https://github.com/user-attachments/assets/22e7aa79-9f34-449c-be5d-40b358ec0c66)
 
 
+
+https://github.com/user-attachments/assets/ae64f0b0-ec3d-4ad4-bdc1-1f64f8bfc998
+
+
+
+https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
+
+
+
