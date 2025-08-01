@@ -42,14 +42,14 @@ https://github.com/user-attachments/assets/ae64f0b0-ec3d-4ad4-bdc1-1f64f8bfc998
 detect and count only specified objects via text prompt 
 here prompt was yellow,black and white cars:
 
-![Prompt Based Detection](https://github.com/user-attachments/assets/8453acd7-0f4f-41f7-bf1d-f9219c3f80c6)
+![Prompt Based Detection](https://github.com/user-attachments/assets/fe1b88b9-ead6-441e-86ba-e2c91c66c487)
 
 Example of prompt based detecting and tracking red cars in video 
 **Watch Example Video**
 
 https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
 
-![1000163467](https://github.com/user-attachments/assets/fe1b88b9-ead6-441e-86ba-e2c91c66c487)
+
 
 
 
