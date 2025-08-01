@@ -9,7 +9,7 @@ This project focuses on detecting and tracking objects in dynamic environments u
   3. follow the notebook to train and test the models.<br>
 
 ### Dataset
-We used the Visdrone dataset [(https://github.com/VisDrone/VisDrone-Dataset)], specially designed for aerial vision tasks.<br>
+Visdrone dataset [(https://github.com/VisDrone/VisDrone-Dataset)] is used, specially designed for aerial vision tasks.<br>
 For Images-<br>
   it is organized into folders for training, validation and testing.Each folder contains images    and matching annotation files.<br>
 For Videos-<br>
