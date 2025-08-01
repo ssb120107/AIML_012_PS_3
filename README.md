@@ -49,6 +49,9 @@ Example of prompt based detecting and tracking red cars in video
 
 https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
 
+![1000163467](https://github.com/user-attachments/assets/fe1b88b9-ead6-441e-86ba-e2c91c66c487)
+
+
 
 
 
