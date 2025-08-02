@@ -3,6 +3,10 @@
 
 This project focuses on detecting and tracking objects in dynamic environments using drone footage. It leverages deep learning models (YOLO) alongside the VisDrone dataset for robust aerial object recognition in images and videos, including prompt-based detection features.
 
+### User Interface
+
+![dashboard](https://github.com/user-attachments/assets/f21129cf-69ce-49f2-847f-b2d36de1961a)
+
 ### Dataset
 Visdrone dataset [(https://github.com/VisDrone/VisDrone-Dataset)] is used, which is specially designed for aerial vision tasks.<br>
 For Images-<br>
@@ -43,6 +47,17 @@ Sample output of prompt based detection and tracking. Text prompt entered for in
 **Watch Example Video**
 
 https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
+
+### Smart Alert System
+This feature allows user to detect any persons present in a defined restricted zone. This restricted zone is set by pointing to the top-left and bottom-right coordinates of the bounding box, from the drone footage imagery. When a person is detected in a restricted zone, an alert is triggered and alarm is generated.
+
+![alert system](https://github.com/user-attachments/assets/1ad17cc5-44a2-4b20-9bd6-7671a2d0dba3)
+
+### App link:
+
+https://dronefootageobjectdetection.streamlit.app/
+
+
 
 
 
