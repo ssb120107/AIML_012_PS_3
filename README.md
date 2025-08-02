@@ -55,7 +55,7 @@ This feature allows user to detect any persons present in a defined restricted z
 
 ### App link:
 
-https://dronefootageobjectdetectiondashboard.streamlit.app/
+https://dashboarddronefootageobjectdetection.streamlit.app/
 
 
 
