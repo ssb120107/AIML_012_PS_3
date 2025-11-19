@@ -22,7 +22,7 @@ Our detection system is based on the YOLO(you only look once) architecture, opti
   2. Training and evaluating on both- images, and videos<br>
   3. Text-prompt based detection functionality<br>
 
-### General Object Detectionn
+### General Object Detection
 Objects such as cars, pedestrians, truck are accurately detected in drone images:
 
 ![General Object Detection](https://github.com/user-attachments/assets/7ce148ae-4716-4e38-8da5-4b3acd6fe336)
@@ -31,7 +31,7 @@ High accuracy pedestrian/ vehicles identification (pedestrians as visible in the
 
 ![Pedestrian Detection](https://github.com/user-attachments/assets/d1b4459b-2d71-4028-bc67-f56c5f955271)
 
-### Nighttime Detection:
+### Night-time Detection:
 Robust detection performance during night scenes :
 
 https://github.com/user-attachments/assets/ae64f0b0-ec3d-4ad4-bdc1-1f64f8bfc998
