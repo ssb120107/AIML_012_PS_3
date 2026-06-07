@@ -1,4 +1,4 @@
-# 🚁 Drone Footage Object Detection
+#  Drone Footage Object Detection
 **AIML_012 | Problem Statement 3**
 
 A deep learning pipeline for detecting, tracking, and alerting on objects in aerial drone footage. Built on the YOLO architecture and trained on the VisDrone dataset, the system supports general object detection, prompt-based detection, night-time inference, and a smart restricted-zone alert system — all accessible via a Streamlit web dashboard.
@@ -8,7 +8,7 @@ A deep learning pipeline for detecting, tracking, and alerting on objects in aer
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Dataset](#dataset)
@@ -18,7 +18,7 @@ A deep learning pipeline for detecting, tracking, and alerting on objects in aer
 
 ---
 
-## ✨ Features
+##  Features
 
 - **General Object Detection** — Detects cars, pedestrians, trucks, and more from aerial perspectives
 - **Night-time Detection** — Robust performance in low-light drone footage
@@ -28,7 +28,7 @@ A deep learning pipeline for detecting, tracking, and alerting on objects in aer
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 AIML_012_PS_3/
@@ -65,7 +65,7 @@ AIML_012_PS_3/
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 The [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset) is used — a benchmark specifically designed for aerial vision tasks.
 
@@ -75,7 +75,7 @@ The [VisDrone Dataset](https://github.com/VisDrone/VisDrone-Dataset) is used —
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 The detection system is built on the **YOLOv8 / YOLOv8-World** architecture, optimized for aerial perspectives and small, fast-moving targets. The pipeline covers:
 
@@ -87,7 +87,7 @@ The detection system is built on the **YOLOv8 / YOLOv8-World** architecture, opt
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ### Prerequisites
 
@@ -167,7 +167,7 @@ Or access the hosted version directly: [dashboarddronefootageobjectdetection.str
 
 ---
 
-## 📊 Results
+##  Results
 
 Training metrics (stored in `Results/`):
 
@@ -199,7 +199,7 @@ https://github.com/user-attachments/assets/19cacd9e-5dac-47a4-a3a5-29d0c3043a06
 
 ---
 
-## 📄 Reports
+##  Reports
 
 Full project documentation is available in the `reports/` folder:
 - `AIML-012_EndEval_FINAL_REP...pdf` — End-semester evaluation report
